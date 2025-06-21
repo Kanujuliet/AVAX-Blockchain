@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AVAX/artifacts/marketplace.sol": "IERC20"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AVAX/artifacts/marketplace.sol": {
+			"keccak256": "0xedfab5c68fc5be2813f975ddf76d6d712f4023372850dd2569f2ca099306f5bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2033855b5a087e9d2cd6837c498aee3a705ab17e0bb3c7e77f20579042d9c4fc",
+				"dweb:/ipfs/QmRJb2CrH3D9NbtUjfD86zcFwdd2GnWdto4myz3RLMGREx"
+			]
+		}
+	},
+	"version": 1
+}
